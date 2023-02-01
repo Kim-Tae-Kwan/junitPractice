@@ -8,10 +8,9 @@ spring:
     console:
       enabled: true
   jpa:
+    open-in-view: true
     hibernate:
       ddl-auto: create
     show-sql: true
     properties:
-      hibernate:
-        format_sql: true
-      
+      '[hiberante.format_sql]': true
